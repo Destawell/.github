@@ -44,6 +44,7 @@ The Destawell research team identified a safety alignment bypass in Gemini 2.5 P
 ## Leadership
 
 - **Niranj R. Mahaswar** — Founder, Lead Security Researcher & Developer
+- Niranj ( Personal profile ) : https://github.com/NiranjMahaswar
 - **Shifana (Miyano)** — Co-Founder & Brand Strategy
 
 ---
