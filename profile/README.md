@@ -55,7 +55,7 @@ A full technical writeup is published, covering root cause, exploitation path, a
 
 ### NASA Vulnerability Disclosure Program (Bugcrowd)
 
-Active researcher on **NASA's VDP**, conducting vulnerability research on Earthdata Search and related NASA properties. This work was formally recognized with a **Letter of Appreciation from NASA**, signed by **Kelvin Taylor, Senior Agency Information Security Officer, NASA OCIO** (September 2026).
+Active researcher on **NASA's VDP**, conducting vulnerability research on Earthdata Search and related NASA properties. This work was formally recognized with a **Letter of Recognition from NASA**, signed by **Kelvin Taylor, Senior Agency Information Security Officer, NASA OCIO** (September 2026).
 
 ---
 
