@@ -16,7 +16,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/CVE--2026--86046-Assigned-203A43?style=flat-square&logo=cve&logoColor=white" />
   <img src="https://img.shields.io/badge/GHSA--259w--wmqg--fp76-Published-181717?style=flat-square&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/NASA%20VDP-Letter%20of%20Appreciation-0B3D91?style=flat-square&logo=nasa&logoColor=white" />
+  <img src="https://img.shields.io/badge/NASA%20VDP-Letter%20of%20Recognition-0B3D91?style=flat-square&logo=nasa&logoColor=white" />
 </p>
 
 <p align="center">
