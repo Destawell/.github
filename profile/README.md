@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/Destawell"><img src="https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://destawelll.vercel.app"><img src="https://img.shields.io/badge/Website-destawelll.vercel.app-2C5364?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/company/destawell/><img src="https://img.shields.io/badge/LinkedIn-Destawell-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/company/destawell/"><img src="..." /></a> src="https://img.shields.io/badge/LinkedIn-Destawell-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Focus-Termux%20%7C%20Kali%20NetHunter%20%7C%20LLM%20Security-2C5364?style=for-the-badge" />
 </p>
 
@@ -47,7 +47,7 @@ Discovered and disclosed a **path traversal / zip-slip vulnerability** in `termu
 | **Weakness** | CWE-22 (Path Traversal) |
 | **CVE** | CVE-2026-86046 |
 | **Advisory** | GHSA-259w-wmqg-fp76 |
-| **Status** | Patched upstream in v1.2.3 |
+| **Status** | Patched upstream in v1.2.4 |
 
 A full technical writeup is published, covering root cause, exploitation path, and the fix.
 
