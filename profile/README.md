@@ -1,24 +1,26 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,100:C41E3A&height=200&section=header&text=Destawell&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=Mobile-First%20Security%20Research%20%7C%20AI%20Red%20Teaming%20%7C%20Open-Source%20Tooling&descAlign=50&descAlignY=62" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=200&section=header&text=Destawell&fontSize=52&fontColor=ffffff&fontAlign=50&fontAlignY=35&animation=fadeIn&desc=Mobile-First%20Security%20Research%20%7C%20AI%20Red%20Teaming%20%7C%20Open-Source%20Tooling&descAlign=50&descAlignY=62" />
 </p>
 
 <p align="center">
-  <b>Mobile-First Security Research | AI Red Teaming | Open-Source Tooling</b>
-  <br/>
-  <sub>Android Pentesting Infrastructure • LLM Safety Validation • ARM64 Automation</sub>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2C5364&center=true&vCenter=true&width=600&lines=Android+Pentesting+Infrastructure;LLM+Safety+%26+AI+Red+Teaming;ARM64+Automation+%7C+Termux+%7C+Kali+NetHunter" alt="Typing SVG" />
 </p>
 
 <p align="center">
   <a href="https://github.com/Destawell"><img src="https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://destawelll.vercel.app"><img src="https://img.shields.io/badge/Website-destawell.vercel.app-C41E3A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+  <a href="https://destawelll.vercel.app"><img src="https://img.shields.io/badge/Website-destawelll.vercel.app-2C5364?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3"><img src="https://img.shields.io/badge/LinkedIn-Destawell-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <img src="https://img.shields.io/badge/Focus-Termux%20%7C%20Kali%20NetHunter%20%7C%20LLM%20Security-black?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-Termux%20%7C%20Kali%20NetHunter%20%7C%20LLM%20Security-2C5364?style=for-the-badge" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/CVE--2026--86046-Assigned-C41E3A?style=flat-square&logo=cve&logoColor=white" />
+  <img src="https://img.shields.io/badge/CVE--2026--86046-Assigned-203A43?style=flat-square&logo=cve&logoColor=white" />
   <img src="https://img.shields.io/badge/GHSA--259w--wmqg--fp76-Published-181717?style=flat-square&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/NASA%20VDP-Letter%20of%20Appreciation-0B3D91?style=flat-square&logo=nasa&logoColor=white" />
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Destawell&label=Profile%20Views&color=2c5364&style=flat" alt="Profile views" />
 </p>
 
 ---
@@ -114,7 +116,7 @@ All Destawell tools are engineered for **Termux on Android ARM64**, with a focus
 <p>
   <a href="https://www.credly.com/badges/d89785d5-1f2f-47cc-9a18-3affeb6b9fe3/public_url"><img src="https://img.shields.io/badge/Certified-Ethical%20Hacking%20%7C%20Cisco-0A6CC2?style=for-the-badge&logo=cisco&logoColor=white" /></a>
   <a href="https://www.credly.com/badges/4bbc1734-3732-42ca-82af-84a56966dcec/public_url"><img src="https://img.shields.io/badge/Certified-Junior%20Cybersecurity%20Analyst%20%7C%20Cisco-6CC644?style=for-the-badge&logo=cisco&logoColor=white" /></a>
-  <a href="https://courses.redteamleaders.com/exam-completion/6561111759bddf91"><img src="https://img.shields.io/badge/Certified-LLM%20Security%20Professional%20(CLLMSP)%20%7C%20Red%20Team%20Leaders-C41E3A?style=for-the-badge&logo=shield&logoColor=white" /></a>
+  <a href="https://courses.redteamleaders.com/exam-completion/6561111759bddf91"><img src="https://img.shields.io/badge/Certified-LLM%20Security%20Professional%20(CLLMSP)%20%7C%20Red%20Team%20Leaders-203A43?style=for-the-badge&logo=shield&logoColor=white" /></a>
 </p>
 
 **Lead Researcher Certified:** **Certified LLM Security Professional (CLLMSP)** — issued by **Red Team Leaders** (Founder: Joas A. Santos), July 16, 2026.
@@ -141,74 +143,5 @@ Expertise validated: LLM Security, Prompt Injection Defense, Jailbreak Preventio
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&text=Destawell&fontSize=20&animation=twinkling" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2C5364,50:203A43,100:0F2027&height=100&section=footer&text=Destawell&fontSize=20&fontColor=ffffff&animation=twinkling" />
 </p>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Destawell",
-  "alternateName": ["Destawell Research", "Destawell Security"],
-  "url": "https://github.com/Destawell",
-  "logo": "https://github.com/Destawell.png",
-  "description": "Destawell is a mobile-first cybersecurity research organization specializing in Android penetration testing infrastructure, LLM safety validation, AI red teaming, and open-source security tooling for Termux and Kali NetHunter on ARM64.",
-  "foundingDate": "2024",
-  "founders": [
-    {
-      "@type": "Person",
-      "name": "Niranj R Mahaswar",
-      "jobTitle": "Founder, Lead Security Researcher",
-      "sameAs": [
-        "https://github.com/niranj-coder",
-        "https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3"
-      ],
-      "hasCredential": [
-        {
-          "@type": "EducationalOccupationalCredential",
-          "name": "Certified LLM Security Professional (CLLMSP)",
-          "url": "https://courses.redteamleaders.com/exam-completion/6561111759bddf91",
-          "recognizedBy": { "@type": "Organization", "name": "Red Team Leaders" }
-        }
-      ]
-    },
-    {
-      "@type": "Person",
-      "name": "Shifana",
-      "jobTitle": "Co-Founder, Brand Strategy"
-    }
-  ],
-  "sameAs": [
-    "https://github.com/Destawell",
-    "https://destawell.vercel.app",
-    "https://dev.to/destawell",
-    "https://destawell.hashnode.dev",
-    "https://medium.com/@destawell",
-    "https://www.quora.com/profile/Destawell",
-    "https://instagram.com/destawell_off"
-  ],
-  "knowsAbout": [
-    "Android Penetration Testing",
-    "Termux",
-    "Kali NetHunter",
-    "Mobile Security",
-    "ARM64 Red Team",
-    "No-Root Pentesting",
-    "LLM Safety",
-    "AI Red Teaming",
-    "Vulnerability Disclosure",
-    "CVE-2026-86046",
-    "CVE-2023-32233"
-  ],
-  "makesOffer": [
-    { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Termux-fixer", "url": "https://github.com/Destawell/Termux-fixer" } },
-    { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Kali-Termux-Pro", "url": "https://github.com/Destawell/Kali-Termux-Pro" } },
-    { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Wraith-Scanner", "url": "https://github.com/Destawell/Wraith-Scanner" } },
-    { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Kali_Critic", "url": "https://github.com/Destawell/Kali_Critic" } }
-  ],
-  "contactPoint": [
-    { "@type": "ContactPoint", "email": "research@destawell.io", "contactType": "Research Disclosures" },
-    { "@type": "ContactPoint", "email": "community@destawell.io", "contactType": "Community" }
-  ]
-}
-</script>
