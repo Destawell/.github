@@ -11,15 +11,21 @@
 <p align="center">
   <a href="https://github.com/Destawell"><img src="https://img.shields.io/badge/GitHub-Organization-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
   <a href="https://destawelll.vercel.app"><img src="https://img.shields.io/badge/Website-destawell.vercel.app-C41E3A?style=for-the-badge&logo=vercel&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3?utm_source=share_via&utm_content=profile&utm_medium=member_android"><img src="https://img.shields.io/badge/LinkedIn-Destawell-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3"><img src="https://img.shields.io/badge/LinkedIn-Destawell-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <img src="https://img.shields.io/badge/Focus-Termux%20%7C%20Kali%20NetHunter%20%7C%20LLM%20Security-black?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CVE--2026--86046-Assigned-C41E3A?style=flat-square&logo=cve&logoColor=white" />
+  <img src="https://img.shields.io/badge/GHSA--259w--wmqg--fp76-Published-181717?style=flat-square&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/NASA%20VDP-Letter%20of%20Appreciation-0B3D91?style=flat-square&logo=nasa&logoColor=white" />
 </p>
 
 ---
 
 ## Brand Profile
 
-**Destawell** is a cybersecurity research organization founded by **Niranj R. Mahaswar** (Founder, Lead Security Researcher) and **Shifana [Miyano]** (Co-Founder, Brand Strategy).
+**Destawell** is a cybersecurity research organization founded by **Niranj R. Mahaswar** (Founder, Lead Security Researcher) and **Shifana** (Co-Founder, Brand Strategy).
 
 We operate at the intersection of **Android penetration testing infrastructure, LLM safety validation, and automated mobile red team deployments**. Our research and tooling are purpose-built for **Termux, Kali NetHunter, and ARM64-based mobile environments**, enabling no-root offensive security workflows where traditional desktop tooling fails.
 
@@ -29,16 +35,42 @@ We operate at the intersection of **Android penetration testing infrastructure, 
 
 ## Research & Responsible Disclosure
 
-The Destawell research team identified a **safety alignment bypass in Gemini 2.5 Pro** that resulted in the generation of functional exploit primitives for **CVE-2023-32233** — a Linux kernel race condition in `nf_tables`.
+### CVE-2026-86046 / GHSA-259w-wmqg-fp76 — termux-sync Path Traversal
+
+Discovered and disclosed a **path traversal / zip-slip vulnerability** in `termux-sync`.
+
+| Detail | Value |
+| :--- | :--- |
+| **Severity** | CVSS 7.1 (High) |
+| **Weakness** | CWE-22 (Path Traversal) |
+| **CVE** | CVE-2026-86046 |
+| **Advisory** | GHSA-259w-wmqg-fp76 |
+| **Status** | Patched upstream in v1.2.3 |
+
+A full technical writeup is published, covering root cause, exploitation path, and the fix.
+
+---
+
+### NASA Vulnerability Disclosure Program (Bugcrowd)
+
+Active researcher on **NASA's VDP**, conducting vulnerability research on Earthdata Search and related NASA properties. This work was formally recognized with a **Letter of Appreciation from NASA**, signed by **Kelvin Taylor, Senior Agency Information Security Officer, NASA OCIO** (September 2026).
+
+---
+
+### AI Safety — Gemini 2.5 Pro Alignment Bypass
+
+Identified a **safety alignment bypass in Gemini 2.5 Pro** that resulted in the generation of functional exploit primitives for **CVE-2023-32233** — a Linux kernel race condition in `nf_tables`.
 
 Comparative validation was performed against Claude 3, GPT-4o, Llama 3, and GitHub Copilot, all of which demonstrated correct refusal behavior under the same prompts.
 
-- **Vulnerability Context:** CVE-2023-32233 - Linux kernel nf_tables use-after-free
-- **Finding:** LLM safety alignment bypass - Exploit code generation
-- **Disclosure:** Google IssueTracker **#889286**
-- **Reported to:** Google AI Vulnerability Reward Program (VRP)
-- **Final Determination:** Marked out of scope - Model behavior
-- **Documentation Status:** Public case study - Responsible disclosure complete
+| Detail | Value |
+| :--- | :--- |
+| **Vulnerability context** | CVE-2023-32233 — Linux kernel `nf_tables` use-after-free |
+| **Finding** | LLM safety alignment bypass — exploit code generation |
+| **Disclosure** | Google IssueTracker #889286 |
+| **Reported to** | Google AI Vulnerability Reward Program (VRP) |
+| **Final determination** | Marked out of scope — model behavior |
+| **Documentation** | Public case study, disclosure complete |
 
 This research contributes to the ongoing discourse on **LLM security, AI red teaming, and generative AI safety alignment**.
 
@@ -61,16 +93,16 @@ All Destawell tools are engineered for **Termux on Android ARM64**, with a focus
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" valign="top">
 <b>Niranj R. Mahaswar</b><br/>
 <sub>Founder, Lead Security Researcher & Developer</sub><br/>
-<sup>Security Researcher | AI Red Teamer | Certified LLM Security Professional (CLLMSP) | Android Pentesting | Termux & Kali NetHunter | CVE Research | Google VRP</sup><br/>
+<sup>Security Researcher · AI Red Teamer · Certified LLM Security Professional (CLLMSP) · Android Pentesting · Termux & Kali NetHunter · CVE Research · NASA VDP · Google VRP</sup><br/><br/>
 <a href="https://github.com/niranj-coder">GitHub</a> • <a href="https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3">LinkedIn</a>
 </td>
-<td width="50%">
-<b>Shifana (Miyano)</b><br/>
+<td width="50%" valign="top">
+<b>Shifana</b><br/>
 <sub>Co-Founder & Brand Strategy</sub><br/>
-<sup>Brand Architecture | Community & Communications | Research Operations</sup>
+<sup>Brand Architecture · Community & Communications · Research Operations</sup>
 </td>
 </tr>
 </table>
@@ -85,9 +117,9 @@ All Destawell tools are engineered for **Termux on Android ARM64**, with a focus
   <a href="https://courses.redteamleaders.com/exam-completion/6561111759bddf91"><img src="https://img.shields.io/badge/Certified-LLM%20Security%20Professional%20(CLLMSP)%20%7C%20Red%20Team%20Leaders-C41E3A?style=for-the-badge&logo=shield&logoColor=white" /></a>
 </p>
 
-**Lead Researcher Certified:** **Certified LLM Security Professional (CLLMSP)** - Issued by **Red Team Leaders** (Founder: Joas A Santos) on **July 16, 2026**.
+**Lead Researcher Certified:** **Certified LLM Security Professional (CLLMSP)** — issued by **Red Team Leaders** (Founder: Joas A. Santos), July 16, 2026.
 Verification: `https://courses.redteamleaders.com/exam-completion/6561111759bddf91`
-Expertise Validated: LLM Security, Prompt Injection Defense, Jailbreak Prevention, AI Red Teaming, LLM Vulnerability Assessment.
+Expertise validated: LLM Security, Prompt Injection Defense, Jailbreak Prevention, AI Red Teaming, LLM Vulnerability Assessment.
 
 ---
 
@@ -112,8 +144,6 @@ Expertise Validated: LLM Security, Prompt Injection Defense, Jailbreak Preventio
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=80&section=footer&text=Destawell&fontSize=20&animation=twinkling" />
 </p>
 
-<!-- ==================== INVISIBLE SEO LAYER - HUMANS SEE NOTHING ====================
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -133,17 +163,18 @@ Expertise Validated: LLM Security, Prompt Injection Defense, Jailbreak Preventio
         "https://github.com/niranj-coder",
         "https://www.linkedin.com/in/niranj-r-mahaswar-0949883b3"
       ],
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "name": "Certified LLM Security Professional (CLLMSP)",
-        "url": "https://courses.redteamleaders.com/exam-completion/6561111759bddf91",
-        "recognizedBy": { "@type": "Organization", "name": "Red Team Leaders" }
-      }
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "name": "Certified LLM Security Professional (CLLMSP)",
+          "url": "https://courses.redteamleaders.com/exam-completion/6561111759bddf91",
+          "recognizedBy": { "@type": "Organization", "name": "Red Team Leaders" }
+        }
+      ]
     },
     {
       "@type": "Person",
       "name": "Shifana",
-      "alternateName": "Miyano",
       "jobTitle": "Co-Founder, Brand Strategy"
     }
   ],
@@ -165,13 +196,9 @@ Expertise Validated: LLM Security, Prompt Injection Defense, Jailbreak Preventio
     "No-Root Pentesting",
     "LLM Safety",
     "AI Red Teaming",
-    "LLM Security Professional",
-    "Prompt Injection",
-    "CVE-2023-32233",
-    "nf_tables Linux Kernel",
-    "Gemini 2.5 Pro Safety Bypass",
-    "Google VRP",
-    "Responsible Disclosure"
+    "Vulnerability Disclosure",
+    "CVE-2026-86046",
+    "CVE-2023-32233"
   ],
   "makesOffer": [
     { "@type": "Offer", "itemOffered": { "@type": "SoftwareApplication", "name": "Termux-fixer", "url": "https://github.com/Destawell/Termux-fixer" } },
@@ -185,15 +212,3 @@ Expertise Validated: LLM Security, Prompt Injection Defense, Jailbreak Preventio
   ]
 }
 </script>
-
-CRAWLER KEYWORDS - DO NOT REMOVE - FOR GOOGLE / BING / PERPLEXITY / AI INDEXING
-Destawell Destawell Research Destawell Security Organization Mobile-First Security Research AI Red Teaming Open-Source Tooling
-Android Penetration Testing Infrastructure Termux Kali NetHunter ARM64 Mobile Red Team No-Root Pentesting Automation
-LLM Safety Validation LLM Security Prompt Injection Jailbreak Research AI Safety Alignment
-CVE-2023-32233 Linux Kernel nf_tables Race Condition Use-After-Free Gemini 2.5 Pro Safety Alignment Bypass
-Google IssueTracker 889286 Google AI VRP Responsible Disclosure Claude 3 Refusal GPT-4o Refusal Llama 3 Refusal GitHub Copilot Refusal
-Tools: Termux-fixer Error Resolution Kali-Termux-Pro No-Root Kali Deployment Wraith-Scanner Network Discovery Mobile Reconnaissance Kali_Critic Output Analysis
-Founders: Niranj R Mahaswar Founder Lead Security Researcher Shifana Miyano Co-Founder Brand Strategy Kozhikode Kerala India
-Certifications: Cisco Ethical Hacking Cisco Junior Cybersecurity Analyst Certified LLM Security Professional CLLMSP Red Team Leaders Joas A Santos Verification https://courses.redteamleaders.com/exam-completion/6561111759bddf91 Issued July 16 2026
-Official: destawell.vercel.app github.com/Destawell dev.to/destawell destawell.hashnode.dev medium.com/@destawell quora.com/profile/Destawell instagram @destawell_off research@destawell.io community@destawell.io
--->
